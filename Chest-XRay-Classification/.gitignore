@@ -13,12 +13,10 @@ data/
 models/*.h5
 models/*.keras
 
-# Image Files
-*.png
-*.jpg
-*.jpeg
-results/*.png
-results/*.jpg
+# Image Files (data only, not results)
+data/*.png
+data/*.jpg
+data/*.jpeg
 
 # Python
 __pycache__/
