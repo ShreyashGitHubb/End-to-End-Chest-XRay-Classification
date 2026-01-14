@@ -1,0 +1,53 @@
+# Data Files
+data/
+*.zip
+*.tar.gz
+*.csv
+
+# Model Files (too large for GitHub)
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+models/*.h5
+models/*.keras
+
+# Image Files
+*.png
+*.jpg
+*.jpeg
+results/*.png
+results/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
